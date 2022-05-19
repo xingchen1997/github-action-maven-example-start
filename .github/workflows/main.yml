@@ -49,7 +49,7 @@ jobs:
           with:
             name: Package
             path: staging
-	
+
   build-docker-image:
     name: Publish to Docker Hub
     runs-on: ubuntu-latest
